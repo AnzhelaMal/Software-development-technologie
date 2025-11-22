@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="uk" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Реєстрація — Shell FM</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+<header>
+    <h1>Shell (Total Commander)</h1>
+</header>
+<main>
+    <div class="content">
+        <h2>Реєстрація</h2>
+        <form method="post" action="/register" class="card">
+            <label>Пошта <input type="email" name="email" required></label>
+            <label>Пароль <input type="password" name="password" required minlength="4"></label>
+            <button type="submit">Створити акаунт</button>
+        </form>
+        <p th:if="${error}" class="error" th:text="${error}"></p>
+        <p>Вже є акаунт? <a href="/login">Увійти</a></p>
+    </div>
+</main>
+<footer>
+    <small>© Shell FM</small>
+</footer>
+</body>
+</html>

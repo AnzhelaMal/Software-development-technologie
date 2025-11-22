@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uk" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Операції</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+<header>
+    <h1>Керування операціями</h1>
+    <a href="/ops">Список</a>
+</header>
+
+<main class="content">
+    <!-- Форма запуску -->
+    <div class="card start-card">
+        <h3>Старт операції</h3>
+        <form method="post" action="/ops/start" class="start-form">
+            <label>Тип:
+                <select name="type">
+                    <option value="SEARCH">Пошук</option>
+                    <option value="COPY">Копіювання</option>
+                    <option value="MOVE">Переміщення</option>
+                    <option value="DELETE">Видалення</option>
+                </select>
+            </label>
+
+            <!-- SEARCH -->
+            <div>
+                <label>Маска імені: <input name="nameMask" placeholder="*report*"></label>
+                <label>Розширення: <input name="ext" placeholder="pdf"></label>
+            </div>
+
+            <!-- FILE OPS -->
+            <div class="file-ops">
+                <label>Джерело (повний шлях): <input name="source" placeholder="C:\in\file.txt"></label>
+                <label>Ціль (для copy/move): <input name="target" placeholder="D:\out\file.txt"></label>
+            </div>
+
+            <button type="submit">Запустити</button>
+        </form>
+    </div>
+
+    <!-- Статус конкретної операції -->
+    <div th:if="${id}" class="card">
+        <h3>Операція [[${id}]]</h3>
+        <p>Стан: <b th:text="${state}">IDLE</b></p>
+        <p th:if="${message}">Повідомлення: <span th:text="${message}"></span></p>
+        <p th:if="${error}" class="error" th:text="${error}"></p>
+
+        <div>
+            Прогрес: <b th:text="${progress + '%'}">0%</b>
+            <div style="height:8px;background:#2d3748;border-radius:6px;margin-top:6px;">
+                <div th:style="'height:8px;width:' + ${progress} + '%;background:#4a90e2;border-radius:6px'"></div>
+            </div>
+        </div>
+
+        <form th:if="!${terminal}" th:action="@{|/ops/${id}/cancel|}" method="post" style="margin-top:10px">
+            <button type="submit">Скасувати</button>
+        </form>
+    </div>
+
+    <!-- якщо не знайдено -->
+    <div class="card" th:if="${notFound}">
+        <p class="error">Операцію не знайдено.</p>
+    </div>
+
+
+</main>
+
+<footer><small>© Shell FM</small></footer>
+</body>
+</html>
