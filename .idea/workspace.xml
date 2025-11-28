@@ -6,66 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f42bf859-dd14-4e4c-b6db-08029d13acc2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_ТПРЗ_Маляревич_А_В_ІА33.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_ТПРЗ_Маляревич_ІА33 (7).pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/.idea/shell-file-manager-web.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/data/shellfmdb.mv.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/src/main/java/ua/kpi/ia33/shellweb/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/src/main/java/ua/kpi/ia33/shellweb/domain/SearchQuery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/src/main/java/ua/kpi/ia33/shellweb/domain/SearchResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/src/main/java/ua/kpi/ia33/shellweb/domain/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/src/main/java/ua/kpi/ia33/shellweb/repo/IRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/src/main/java/ua/kpi/ia33/shellweb/repo/SearchQueryRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/src/main/java/ua/kpi/ia33/shellweb/repo/SearchResultRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/src/main/java/ua/kpi/ia33/shellweb/repo/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/src/main/java/ua/kpi/ia33/shellweb/service/AuthService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/src/main/java/ua/kpi/ia33/shellweb/service/SearchService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/src/main/java/ua/kpi/ia33/shellweb/web/AuthController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/src/main/java/ua/kpi/ia33/shellweb/web/SearchController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/src/main/java/ua/kpi/ia33/shellweb/web/SessionKeys.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/src/main/java/ua/kpi/ia33/shellweb/web/WebConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/src/main/java/ua/kpi/ia33/shellweb/web/WebInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/src/main/resources/application-postgres.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/src/main/resources/static/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/src/main/resources/templates/_base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/src/main/resources/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/src/main/resources/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/src/main/resources/templates/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/src/main/resources/templates/results.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/src/main/resources/templates/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/target/classes/application-postgres.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/target/classes/static/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/target/classes/templates/_base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/target/classes/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/target/classes/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/target/classes/templates/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/target/classes/templates/results.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/target/classes/templates/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/target/classes/ua/kpi/ia33/shellweb/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/target/classes/ua/kpi/ia33/shellweb/domain/SearchQuery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/target/classes/ua/kpi/ia33/shellweb/domain/SearchResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/target/classes/ua/kpi/ia33/shellweb/domain/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/target/classes/ua/kpi/ia33/shellweb/repo/IRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/target/classes/ua/kpi/ia33/shellweb/repo/SearchQueryRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/target/classes/ua/kpi/ia33/shellweb/repo/SearchResultRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/target/classes/ua/kpi/ia33/shellweb/repo/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/target/classes/ua/kpi/ia33/shellweb/service/AuthService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/target/classes/ua/kpi/ia33/shellweb/service/SearchService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/target/classes/ua/kpi/ia33/shellweb/web/AuthController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/target/classes/ua/kpi/ia33/shellweb/web/SearchController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/target/classes/ua/kpi/ia33/shellweb/web/SessionKeys.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/target/classes/ua/kpi/ia33/shellweb/web/WebConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/shell-file-manager-web/target/classes/ua/kpi/ia33/shellweb/web/WebInterceptor.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
